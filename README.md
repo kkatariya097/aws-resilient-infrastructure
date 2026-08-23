@@ -34,9 +34,13 @@ A small company runs its application on a single server: no redundancy, no autom
 ## Tech stack
 
 **AWS:** VPC, EC2, ALB, Auto Scaling, RDS (Multi-AZ), S3, IAM, Secrets Manager, CloudWatch, SNS, GuardDuty, Security Hub, WAF, CloudTrail
+
 **IaC:** Terraform (remote state in S3 + DynamoDB lock)
+
 **CI/CD:** GitHub Actions
+
 **Other:** Git, Linux, k6 (load testing)
+
 **Region:** `ca-central-1`, chosen for latency reasoning 
 
 ## Progress

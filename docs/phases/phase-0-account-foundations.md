@@ -12,7 +12,7 @@ Before building any infrastructure, lock down the AWS account itself — the acc
 
 1. **Secured the root user** — enabled MFA (authenticator app), confirmed no access keys exist on root, and set a strong unique password. Root is never used for daily work from this point forward.
 
-2. **Picked one region and standardized on it** — `<YOUR_REGION>`, used consistently for every resource in this project.
+2. **Picked one region and standardized on it** — `ca-central-1`, used consistently for every resource in this project.
 
 3. **Created an IAM admin user** (`kat-admin`) instead of continuing to use root, with MFA enabled on the user as well. `AdministratorAccess` is attached for now — intentionally broad, to be replaced with least-privilege policies in Phase 7 once I know exactly what permissions each part of the project actually needs.
 
