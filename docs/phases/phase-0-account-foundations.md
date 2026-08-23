@@ -27,10 +27,24 @@ Before building any infrastructure, lock down the AWS account itself — the acc
 ## Verification
 
 - [ ] Screenshot: root MFA enabled, zero access keys
+
+![Root MFA enabled](images/ss_1_rootMFAenabled.png)
+
 - [ ] Screenshot: IAM admin user + MFA
+
+![IAM admin user + MFA](images/ss_2_IAMadminuser.png)
+
 - [ ] Screenshot: AWS Budget created with alert thresholds
+
+![AWS Budget created with alert thresholds](images/ss_3_AWSBudgetscreenshot.png)
+
 - [ ] Screenshot: CloudWatch billing alarm, status OK
+
+![CloudWatch billing alarm, status OK](images/ss_4_CloudWatch_Alarm.png)
+
 - [ ] Terminal output: `aws sts get-caller-identity` showing the IAM user, not root
+
+![AWS CLI IAM user identity](images/ss_5_using_IAM_user.png)
 
 
 ## Lessons learned
