@@ -49,8 +49,8 @@ A small company runs its application on a single server: no redundancy, no autom
 |---|---|---|
 | 0 | Account foundations — root lockdown, IAM admin, billing alarms | ✅ [Complete](docs/phases/phase-0-account-foundations.md) |
 | 1 | Custom networking — VPC, subnets, routing |  ✅ [Complete](docs/phases/phase-1-networking.md) |
-| 2 | Compute + load balancing — EC2, ALB, Auto Scaling | ⬜ Not started |
-| 3 | Database layer — RDS Multi-AZ | ⬜ Not started |
+| 2 | Compute + load balancing — EC2, ALB, Auto Scaling |  ✅ [Complete](docs/phases/phase-2-compute-load-balancing.md) |
+| 3 | Database layer — RDS Multi-AZ |  ✅ [Complete](docs/phases/phase-3-database-layer.md) |
 | 4 | Infrastructure as Code — Terraform rebuild | ⬜ Not started |
 | 5 | CI/CD pipeline | ⬜ Not started |
 | 6 | Observability | ⬜ Not started |
